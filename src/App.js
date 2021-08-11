@@ -37,7 +37,7 @@ const theme = createMuiTheme()
 function App(props) {
   return (
     <ThemeProvider theme={theme}>
-      <Router>
+      <Router basename="/my-app">
           <Switch>
             <Route exact path="/"><SignInSide /></Route>
             
